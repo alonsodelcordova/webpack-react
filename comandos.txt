@@ -1,0 +1,26 @@
+- inicializar node
+npm init -y
+
+- installar webpack
+npm i webpack webpack-cli 
+
+- para el html
+npm i html-webpack-plugin
+
+-- para crear servidor de desarrollo
+npm i webpack-dev-server
+
+-- installar babel -> lo utiliza react
+npm i @babel/core @babel/cli @babel/preset-env
+
+-- instalar babel-loader
+npm i babel-loader
+
+--instalar react react-dom
+npm i react react-dom
+
+-- para que babel tradusca a react
+npm i @babel/preset-react
+
+-- para que babel entienda las clases de react
+npm i @babel/plugin-proposal-class-properties

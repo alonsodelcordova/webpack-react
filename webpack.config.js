@@ -10,7 +10,9 @@ module.exports = {
       filename: 'bundle.js'
    },
    devServer: {
-      port: 4000
+      port: 4000,
+      historyApiFallback: true,
+
    },
    resolve:{
       extensions: ['.js','.jsx']
@@ -25,7 +27,12 @@ module.exports = {
          {
             test: /\.css$/,
             use: ['style-loader', 'css-loader']
-          }
+          },
+          {
+            test: /\.js$/,
+            enforce: 'pre',
+            use: ['source-map-loader'],
+          },
       ]
    },
    plugins: [

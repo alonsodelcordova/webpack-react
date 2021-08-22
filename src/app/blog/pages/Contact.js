@@ -7,20 +7,20 @@ export default function Contact() {
          <form>
             <div className="row">
                <div className="col-md-6 my-2">
-                  <label for="nombre">Nombres</label>
-                  <input type="text" className="form-control" id="nombre" />
+                  <label >Nombres</label>
+                  <input type="text" className="form-control" />
                </div>
                <div className="col-md-6 my-2">
-                  <label for="apellido">Apellidos</label>
-                  <input type="text" className="form-control" id="apellido" />
+                  <label >Apellidos</label>
+                  <input type="text" className="form-control"  />
                </div>
                <div className="col-md-12 my-2">
-                  <label for="direccion">Dirección</label>
-                  <input type="text" className="form-control" id="direccion" />
+                  <label >Dirección</label>
+                  <input type="text" className="form-control" />
                </div>
                <div className="col-md-12 my-2">
-                  <label for="nombre">Email</label>
-                  <input type="text" className="form-control" id="nombre" />
+                  <label >Email</label>
+                  <input type="text" className="form-control" />
                </div>
             </div>
             <div className="my-2 text-center">

@@ -4,6 +4,7 @@ import { Link, useRouteMatch } from 'react-router-dom';
 export default function HeaderBlog() {
    const [collapse, setCollapse] = useState("navbar-collapse collapse");
    let match = useRouteMatch();
+   console.log(match);
    const change = () => {
       setCollapse(collapse.includes(" collapse") ? 'navbar-collapse' : 'navbar-collapse collapse');
    }
